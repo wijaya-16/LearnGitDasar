@@ -1,0 +1,42 @@
+.container-form {
+  position: relative;
+  height: 300px;
+  border: 1px solid red;
+}
+
+.cls-form {
+  position: absolute;
+  justify-content: center;
+  gap: 10px;
+  align-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 10px 20px 10px 20px;
+}
+
+input {
+  padding: 20px;
+  margin: 10px 20px 10px 20px;
+  width: 300px;
+  padding-right: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+placeholder {
+  font-size: 100px;
+  
+}
+
+.konten {
+  flex-wrap: wrap;
+  display: grid;
+
+  flex-wrap: wrap;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
